@@ -28433,6 +28433,7 @@ div.tagsinput span.tag a {
   top: 0;
   left: 0;
   pointer-events: none;
+  font-family: 'Sofia Pro', sans-serif;
 }
 
 .focus-input100::before {
@@ -28448,15 +28449,13 @@ div.tagsinput span.tag a {
   -moz-transition: all 0.4s;
   transition: all 0.4s;
   background: #9b0425;
-
 }
 
 .focus-input100::after {
-  font-family: Poppins-Regular;
+  font-family: 'Sofia Pro', sans-serif;
   font-size: 15px;
   color: #999999;
   line-height: 1.2;
-
   content: attr(data-placeholder);
   display: block;
   width: 100%;
@@ -28464,7 +28463,6 @@ div.tagsinput span.tag a {
   top: 16px;
   left: 0px;
   padding-left: 5px;
-
   -webkit-transition: all 0.4s;
   -o-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -28491,7 +28489,6 @@ div.tagsinput span.tag a {
 .btn-show-pass {
   font-size: 15px;
   color: #999999;
-
   display: -webkit-box;
   display: -webkit-flex;
   display: -moz-box;
@@ -28678,8 +28675,6 @@ div.tagsinput span.tag a {
   -o-transition: all 0.2s ease-in;
   transition: all 0.2s ease-in;
 }
-
-
 
 .sidebar .nav .nav-item .nav-link .menu-title {
   color: white;
