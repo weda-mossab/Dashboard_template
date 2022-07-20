@@ -30791,4 +30791,7 @@ border: none;
   padding: 0 6px;
 }
 }
+thead{
+  border-bottom: 2px solid black;
+}
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
