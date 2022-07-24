@@ -13311,7 +13311,7 @@ input[type="button"].btn-block {
   flex-wrap: wrap;
   padding-left: 0;
   margin-bottom:  0;
-  list-style: none;
+  list-style-type: none;
 }
 
 .nav-link {
@@ -28199,7 +28199,7 @@ div.tagsinput span.tag a {
 }
 
 .wizard > .content > .body ul {
-  list-style: disc;
+  list-style: none;
 }
 
 .wizard > .content > .body ul > li {
@@ -28788,7 +28788,7 @@ div.tagsinput span.tag a {
 }
 
 .sidebar .nav.sub-menu .nav-item::before {
-  content: '';
+  color: #000;
   width: 5px;
   height: 5px;
   position: absolute;
@@ -28805,6 +28805,7 @@ div.tagsinput span.tag a {
   line-height: 1;
   height: auto;
   border-top: 0;
+  list-style-type: none;
 }
 
 .sidebar .nav.sub-menu .nav-item .nav-link:hover {
@@ -30793,5 +30794,12 @@ border: none;
 }
 thead{
   border-bottom: 2px solid black;
+}
+a,a:hover{
+  color: white;
+  color: white;
+}
+.activelink{
+  text-decoration: underline;
 }
 /*# sourceMappingURL=../maps/vertical-layout-light/style.css.map */
