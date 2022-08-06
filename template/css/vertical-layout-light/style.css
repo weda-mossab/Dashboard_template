@@ -28483,6 +28483,14 @@ div.tagsinput span.tag a {
   transition: all 0.4s;
 }
 
+/* .input100::-webkit-input-placeholder { 
+ font-family: 'Sofia Pro', sans-serif;
+}
+
+.input100:-moz-placeholder { 
+ font-family: 'Sofia Pro', sans-serif;
+} */
+
 .input100:focus + .focus-input100::after {
   top: -15px;
 }
