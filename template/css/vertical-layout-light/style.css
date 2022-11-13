@@ -28414,6 +28414,10 @@ div.tagsinput span.tag a {
   font-size: .8125rem;
 }
 
+#select{
+  width: 100%;
+  color: grey;
+}
 
 .wrap-input100 {
   width: 100%;
@@ -28483,13 +28487,13 @@ div.tagsinput span.tag a {
   transition: all 0.4s;
 }
 
-/* .input100::-webkit-input-placeholder { 
+.input100::-webkit-input-placeholder { 
  font-family: 'Sofia Pro', sans-serif;
 }
 
 .input100:-moz-placeholder { 
  font-family: 'Sofia Pro', sans-serif;
-} */
+}
 
 .input100:focus + .focus-input100::after {
   top: -15px;
@@ -28531,12 +28535,8 @@ div.tagsinput span.tag a {
 
 .btn-show-pass:hover {
   color: #6a7dfe;
- 
 }
 
-.btn-show-pass.active {
-
-}
 
 .auth form .auth-form-btn {
   padding: 1rem 3rem;

@@ -192,9 +192,9 @@
               <i class="fa-solid fa-chevron-right menu-arrow"></i>
             </a>
             <div class="collapse" id="error">
-              <ul class="nav flex-column sub-menu">
-                <li class="nav-item activelink"> <a class="nav-link" href="./dossier archivage.html"> Dossier d'Archivage </a></li>
-                <li class="nav-item"> <a class="nav-link" href="./Archives.html"> Archives </a></li>
+              <ul class="nav flex-column sub-menu" >
+                <li class="nav-item"> <a class="nav-link" href="./dossier archivage.html"> Dossier d'Archivage </a></li>
+                <li class="nav-item activelink"> <a class="nav-link" href="./Archives.html"> Archives </a></li>
                 <li class="nav-item"> <a class="nav-link" href="./Demandes.html"> Demandes </a></li>
                 <li class="nav-item"> <a class="nav-link" href="./Dossier client.html"> Dossier Client </a></li>
               </ul>
@@ -203,7 +203,7 @@
         </ul>
       </nav>
       <!-- partial -->
-      <!-- partial -->
+
       <div class="main-panel">
         <div class="content-wrapper">
           <div class="row">
@@ -211,117 +211,53 @@
               <div class="card">
                 <div class="card-body">
                   <div class="estore">
-                    e- <span class="estore" style="color: #9b0425;">Store</span>  
-                  </div>
-                
-                  <p class="card-description">
-                   <h4 class="card-title estore">Création Dossier d'Archivage</h4>
-                  </p>
-                  <div class="searchBox">
-                    <input class="searchInput"type="text" name="" placeholder="Rechercher">
-                      <button class="searchButton" href="#"><i class="fa-solid fa-magnifying-glass"></i></button>
-                   </div> <br><br>
-                  <div class="table-responsive" style="margin-top:5%;">
-                    <table class="table">
-                      <thead>
-                        <tr>
-                          <th>Secteur d'activité</th>
-                          <th>B2B/B2C</th>
-                          <th>Classification</th>
-                          <th>Chargé étude</th>
-                          <th>Vis-à-vis</th>
-                          <th>Date de finilisation</th>
-                          <th>Description</th>
-                          <th></th>
-                        </tr>
-                      </thead>
-                      <tbody>
-                        <form action="" method="post">
-                          <tr>
-                            <td>
-                              <select name="" id="select">
-                                <option value=""></option>
-                                <option value=""></option>
-                                <option value=""></option>
-                              </select>
-                            </td>
-                            <td>
-                              <select name="" id="select">
-                              <option value=""></option>
-                              <option value=""></option>
-                              <option value=""></option>
-                            </select>
-                            </td>
-                            <td>
-                              <select name="" id="select">
-                              
-                              </select>
-                            </td>
-                            <td>
-                              <select name="" id="select">
-                              
-                              </select>
-                            </td>
-                            <td>
-                              <input id="input" type="text" placeholder="Vis-à-vis" style="width: 120%;">
-                            </td>
-                            <td>
-                              <input id="input" type="date" placeholder="Date de finilisation">
-                            </td>
-                            <td>
-                              <input id="input" type="text" placeholder="Description">
-                            </td>
-                            <td>
-                              <button type="submit" class="botnsub"><i class="fa-solid fa-plus"></i></button>
-                            </td>
-                          </tr>
-                        </form> 
-                        <tr>
-                          <td>ESPRIT DEMO QUANTITE</td>
-                          <td>B2B</td>
-                          <td>international</td>
-                          <td>feriel</td>
-                          <td>Prenom Nom</td>
-                          <td>20-09-2017</td>
-                          <td>ESPRIT DEMO QUANTI  ESPRIT DEMO QUANTI
-                            ESPRIT DEMO QUANTI
-                          </td>
-                          <td>
-                            <button href="" class="botn"><i class="fa-solid fa-box-archive"></i></button>
-                          </td>
-                        </tr>
-                        <tr>
-                          <td>ESPRIT DEMO QUANTITE</td>
-                          <td>B2B</td>
-                          <td>international</td>
-                          <td>feriel</td>
-                          <td>Prenom Nom</td>
-                          <td>20-09-2017</td>
-                          <td style=" word-wrap: break-word;">ESPRIT DEMO QUANTI  ESPRIT DEMO QUANTI
-                            ESPRIT DEMO QUANTI
-                          </td>
-                          <td>
-                            <button href="" class="botn"><i class="fa-solid fa-box-archive"></i></button>
-                          </td>
-                        </tr>
-                      </tbody>
-                    </table>
-                  </div>
+                    e- <span class="estore" style="color: #9b0425;">Store</span> 
+                    <p class="card-description">
+                      <h4 class="card-title estore">Ajouter un Archive</h4>
+                     </p> 
                 </div>
-              </div>
-            </div>
+                    <div class="auth-form-light text-left py-5 px-4 px-sm-5">   
+                        <form class="pt-3">
+                            <!-- <div class="form-group">
+                            <input type="text" class="form-control form-control-lg" id="exampleInputUsername1" placeholder="Username">
+                            </div> -->
+                            <div class="wrap-input100 validate-input" " style="border: none;">
+                            <input class="input100 " type="text" name="Nom" required >
+                            <span class="focus-input100" data-placeholder="Nom"></span>
+                            </div>
             
+                            <div class="wrap-input100 validate-input" " style="border: none;">
+                            <input class="input100 " type="text" name="Type" required >
+                            <span class="focus-input100" data-placeholder="Type"></span>
+                            </div>
+                            
+                            <div class="wrap-input100 validate-input" " style="border: none;">
+                            <input class="input100 " type="date" name="Date d'ajout" required >
+                            <span class="focus-input100" ></span>
+                            </div>
+                        
+                            <div class="wrap-input100 validate-input" " style="border: none;">
+                            <input class="input100 " type="text" name="description" required >
+                            <span class="focus-input100" data-placeholder="Description"></span>
+                            </div>
+            
+                            <span>Ajouté par</span> &nbsp;<br><br>
+                                <select name="" id="select">
+                                <option value="">directeur</option>
+                                <option value="">ameni</option>
+                                <option value="">feriel</option>
+                                </select><br><br><br>
+            
+                            <div class="mt-3">
+                            <input type="submit" class="btn btn-block btn-primary btn-lg font-weight-medium auth-form-btn" value="Ajouter">
+                            </div>
+                        </form>
+                    </div>
+                </div>
+            </div>
           </div>
         </div>
         <!-- content-wrapper ends -->
-        <!-- partial:../../partials/_footer.html -->
-        <footer class="footer">
-          <div class="d-sm-flex justify-content-center justify-content-sm-between">
-            <span class="text-muted text-center text-sm-left d-block d-sm-inline-block">Copyright © 2021.  Premium <a href="https://www.bootstrapdash.com/" target="_blank">Bootstrap admin template</a> from BootstrapDash. All rights reserved.</span>
-            <span class="float-none float-sm-right d-block mt-1 mt-sm-0 text-center">Hand-crafted & made with <i class="ti-heart text-danger ml-1"></i></span>
-          </div>
-        </footer>
-        <!-- partial -->
       </div>
       <!-- main-panel ends -->
     </div>
@@ -342,25 +278,6 @@
   <!-- endinject -->
   <!-- Custom js for this page-->
   <!-- End custom js for this page-->
-  <script>
-    var botn = document.getElementsByClassName("botn");
-
-for (var i = 0; i < botn.length; i++) {
-    botn[i].addEventListener("click", myFunction);
-}
-
-function myFunction() {
-    var parentElement = this.parentElement;
-
-    if (this.classList.length <= 2) {
-    this.classList.add("clicked");
-
-  } else {
-    this.classList.remove("clicked");
-
-  }
-}
-  </script>
 </body>
 
 </html>
